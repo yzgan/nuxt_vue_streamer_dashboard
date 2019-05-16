@@ -1,6 +1,11 @@
-# nuxt_demo
+# nuxt streamer dashboard
 
-> My beautiful Nuxt.js project
+> Demo frontend dashboard app for streamer.
+
+## Preview
+\- In-progress work - 
+
+![Preview](preview.png)
 
 ## Build Setup
 
