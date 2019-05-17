@@ -8,6 +8,7 @@
       >
       </UserProfile>
       <Popularity />
+      <LiveStream />
     </v-layout>
   </v-container>
 </template>
@@ -15,11 +16,13 @@
 <script>
 import UserProfile from '@/components/CardUserProfile'
 import Popularity from '@/components/CardPopularity'
+import LiveStream from '@/components/CardLiveStream'
 
 export default {
   components: {
     UserProfile,
-    Popularity
+    Popularity,
+    LiveStream
   },
   data: () => ({
     user: {
