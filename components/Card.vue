@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs12 sm6 md3 d-flex>
+  <v-flex xs12 sm6 md3 d-flex px-3>
     <v-card dark darken-3>
       <v-card-title primary-title>
         <div>
