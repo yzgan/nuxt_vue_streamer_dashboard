@@ -1,5 +1,5 @@
 <template>
-  <Card title="Facebook">
+  <Card :title="source">
     <template v-slot:content>
       <v-list three-line>
         <template v-for="post in posts">
@@ -37,6 +37,13 @@ const moment = require('moment')
 export default {
   components: {
     Card
+  },
+  props: {
+    source: {
+      default: 'Social media source',
+      require: true,
+      type: String
+    }
   },
   data: () => ({
     updated: '2019-05-21T13:51:50.417+08:00',

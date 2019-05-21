@@ -9,7 +9,9 @@
       </UserProfile>
       <Popularity />
       <LiveStream />
-      <FacebookComment />
+      <SocialComment source="facebook" />
+      <SocialComment source="youtube" />
+      <SocialComment source="Twitch" />
     </v-layout>
   </v-container>
 </template>
@@ -18,14 +20,14 @@
 import UserProfile from '@/components/CardUserProfile'
 import Popularity from '@/components/CardPopularity'
 import LiveStream from '@/components/CardLiveStream'
-import FacebookComment from '@/components/CardSocialComment'
+import SocialComment from '@/components/CardSocialComment'
 
 export default {
   components: {
     UserProfile,
     Popularity,
     LiveStream,
-    FacebookComment
+    SocialComment
   },
   data: () => ({
     user: {
