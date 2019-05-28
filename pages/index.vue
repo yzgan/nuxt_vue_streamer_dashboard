@@ -13,6 +13,7 @@
       <SocialComment source="facebook" />
       <SocialComment source="youtube" />
       <SocialComment source="Twitch" />
+      <Clock />
     </v-layout>
   </v-container>
 </template>
@@ -23,6 +24,7 @@ import Popularity from '@/components/CardPopularity'
 import LiveStream from '@/components/CardLiveStream'
 import SocialComment from '@/components/CardSocialComment'
 import SocialForm from '@/components/CardPostForm'
+import Clock from '@/components/Clock'
 
 export default {
   components: {
@@ -30,7 +32,8 @@ export default {
     Popularity,
     LiveStream,
     SocialComment,
-    SocialForm
+    SocialForm,
+    Clock
   },
   data: () => ({
     user: {
