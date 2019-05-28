@@ -24,7 +24,7 @@ import Popularity from '@/components/CardPopularity'
 import LiveStream from '@/components/CardLiveStream'
 import SocialComment from '@/components/CardSocialComment'
 import SocialForm from '@/components/CardPostForm'
-import Clock from '@/components/Clock'
+import Clock from '@/components/CardClock'
 
 export default {
   components: {
