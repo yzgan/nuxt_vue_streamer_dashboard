@@ -9,11 +9,11 @@
       </UserProfile>
       <Popularity />
       <LiveStream />
+      <Clock />
       <SocialForm />
       <SocialComment source="facebook" />
       <SocialComment source="youtube" />
       <SocialComment source="Twitch" />
-      <Clock />
     </v-layout>
   </v-container>
 </template>
