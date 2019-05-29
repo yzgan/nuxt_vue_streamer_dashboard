@@ -2,6 +2,8 @@
   <Card title="Clock">
     <template v-slot:content>
       <div class="text-xs-center">
+        <analog-clock height="200" width="200" />
+
         <p class="display-2">{{ timeNow }}</p>
         <p class="title">{{ dateNow }}</p>
       </div>
@@ -12,10 +14,12 @@
 <script>
 import Card from '~/components/Card'
 import moment from 'moment'
+import AnalogClock from '~/components/AnalogClock'
 
 export default {
   components: {
-    Card
+    Card,
+    AnalogClock
   },
   data: () => ({
     ticker: null,
