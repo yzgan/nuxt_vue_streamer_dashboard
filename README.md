@@ -1,4 +1,4 @@
-# nuxt streamer dashboard
+# Streamer Dashboard with Vue on Nuxt
 
 > Demo frontend dashboard app for streamer.
 
